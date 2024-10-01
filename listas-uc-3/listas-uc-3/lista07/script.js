@@ -112,6 +112,26 @@
 
 // console.log(soma);
 
+// 9
+// let num = [];
+// for (let i = 0; i < 10; i++) {
+//     num.push(Math.floor(Math.random() * 101));
+// }
+
+// console.log(num);
+
+// let filtro = num.filter(function(n){
+//     return n > 50;
+// });
+
+// console.log(filtro);
+
+// let ordenado = filtro.sort(function(a,b){
+//     return b-a;
+// });
+
+// console.log(ordenado);
+
 // 10
 
 // let notas = [7.5, 8.0, 6.5, 9.0, 7.0]
@@ -287,6 +307,13 @@
 
 // 20
 
+let numeros = [];
+for (let i = 0; i < 5; i++) {
+    numeros.push(Math.floor(Math.random() * 21));
+}
+
+console.log(numeros);
+
 
 // 21
 
@@ -346,6 +373,23 @@
 // }
 
 // 26
+
+// let num = [];
+// for (let i = 0; i < 5; i++) {
+//     num.push(Math.floor(Math.random() * 51));
+// }
+
+// let crescente = num.sort(function(a,b){
+//     return a-b;
+// });
+
+// console.log(crescente);
+
+// let decrescente = num.sort(function(a,b){
+//     return b-a;
+// });
+
+// console.log(decrescente);
 
 // 27
 
@@ -410,10 +454,10 @@
 
 // 30
 
-let part1 = "Aprender ";
-let part2 = "Programação";
+// let part1 = "Aprender ";
+// let part2 = "Programação";
 
-let concatenar = part1.concat(part2);
-console.log(concatenar);
-let letrasInvertidas = concatenar.split('').reverse().join('.');
-console.log(letrasInvertidas);
+// let concatenar = part1.concat(part2);
+// console.log(concatenar);
+// let letrasInvertidas = concatenar.split('').reverse().join('.');
+// console.log(letrasInvertidas);
