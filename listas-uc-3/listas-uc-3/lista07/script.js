@@ -169,12 +169,12 @@
 // let palavrasInvertidas = palavrasSeparados.reverse();
 // console.log(palavrasInvertidas);
 
-// // 3. Converter a primeira letra de cada palavra para maiúscula
+//  Converter a primeira letra de cada palavra para maiúscula
 // let palavrasCapitalizadas = palavrasInvertidas.map(palavra => {
 //     return palavra.charAt(0).toUpperCase() + palavra.slice(1);
 // });
 
-// // 4. Unir as palavras em uma string novamente e imprimir o resultado
+// Unir as palavras em uma string novamente e imprimir o resultado
 // let resultado = palavrasCapitalizadas.join(" ");
 // console.log(resultado);
 
