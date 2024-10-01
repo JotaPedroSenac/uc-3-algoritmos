@@ -142,9 +142,278 @@
 
 // 12
 
-let texto = "javascript é incrível";
+// let texto = "javascript é incrível";
 
-let palavrasSeparados = texto.split(" ");
-console.log(palavrasSeparados);
-let palavrasInvertidas = palavrasSeparados.reverse();
-console.log(palavrasInvertidas);
+// let palavrasSeparados = texto.split(" ");
+// console.log(palavrasSeparados);
+// let palavrasInvertidas = palavrasSeparados.reverse();
+// console.log(palavrasInvertidas);
+
+// // 3. Converter a primeira letra de cada palavra para maiúscula
+// let palavrasCapitalizadas = palavrasInvertidas.map(palavra => {
+//     return palavra.charAt(0).toUpperCase() + palavra.slice(1);
+// });
+
+// // 4. Unir as palavras em uma string novamente e imprimir o resultado
+// let resultado = palavrasCapitalizadas.join(" ");
+// console.log(resultado);
+
+
+// 13 
+
+// let mes = 6;
+
+// switch (mes) {
+//     case 1:
+//         console.log('Janeiro');
+//         break;
+//     case 2:
+//         console.log('Fevereiro');
+//         break;
+//     case 3:
+//         console.log('Março');
+//         break;
+//     case 4:
+//         console.log('Abril');
+//         break;
+//     case 5:
+//         console.log('Maio');
+//         break;
+//     case 6:
+//         console.log('Junho');
+//         break;
+//     case 7:
+//         console.log('Julho');
+//         break;
+//     case 8:
+//         console.log('Agosto');
+//         break;
+//     case 9:
+//         console.log('Setembro');
+//         break;
+//     case 10:
+//         console.log('Outubro');
+//         break;
+//     case 11:
+//         console.log('Novembro');
+//         break;
+//     case 12:
+//         console.log('Dezembro');
+//         break;
+//     default:
+//         console.log('Mês inválido');
+// }
+
+// if (mes >= 1 && mes <= 6) {
+//     console.log('Primeiro semestre')
+// }else{
+//     console.log('Segundo semestre');
+// }
+
+// 14
+
+// let numeroStr = "45.67";
+// let numInt = parseFloat(numeroStr);
+// console.log(numInt);
+// let numAround = Math.floor(numInt);
+// console.log(numAround);
+// let numCeil = Math.ceil(numInt);
+// console.log(numCeil);
+
+// 15
+
+// let palavra = "programador";
+
+// let terceiroCaractere = palavra.charAt(3);
+// console.log(terceiroCaractere);
+// let posicaoA = palavra.indexOf('a');
+// console.log(posicaoA);
+// let primeiraMetade = palavra.slice(0, 5);
+// console.log(primeiraMetade);
+
+// 16
+
+// let frase = "Estudar programação é ótimo!"
+// let contador = 0;
+// for (let i = 0; i < frase.length; i++) {
+//     if (frase.charAt(i) == "a") {
+//         contador++;
+//     }
+    
+// }
+
+// console.log(contador);
+
+// 17
+
+// let letras = ["a", "b", "c", "d", "e"];
+
+// let letrasInvertidas = letras.reverse();
+// console.log(letrasInvertidas);
+// let letrasUnidas = letrasInvertidas.join(",");
+// console.log(letrasUnidas);
+
+// 18
+
+// let numeros = [5, 12, 8, 130, 44];
+
+// let maiorqueDez = numeros.filter(function(numero){
+//     return numero > 10;
+// });
+
+// console.log(maiorqueDez);
+
+// let soma = numeros.reduce(function(acumulador, numero){
+//     return acumulador + numero;
+// });
+
+// console.log(soma);
+
+// if (numeros.length == 5) {
+//     console.log("tamanho: 5 elememntos")
+// }else{
+// //     console.log("Não tem 5 elementos")
+// }
+
+// 19
+
+// let nome = "Alice";
+
+// let letrasMinusculas = nome.toLocaleLowerCase();
+// console.log(letrasMinusculas);
+// let reconhecimento = letrasMinusculas == "alice" ?  "Nome Reconhecido" : "Nome não Reconhecido"
+
+// console.log(reconhecimento);
+
+// 20
+
+
+// 21
+
+// let frase = "Aprender JavaScript é divertido e recompensador";
+
+// let fraseDividida = frase.split(" ");
+// console.log(fraseDividida);
+// console.log(fraseDividida.length);
+// let verificacao = fraseDividida.length > 5 ? "Mais que 5" : "Menos que 5";
+// console.log(verificacao);
+
+// 22
+
+// let pergunta = prompt("Qual o seu nome?");
+// let confirmar = confirm(`O seu nome é ${pergunta}?`);
+// if (confirmar) {
+//     alert(`Seja bem-vindo, ${pergunta}`)
+// }else{
+//     alert("Nome incorreto");
+// }
+
+// 23
+
+//  let texto = "JavaScript";
+
+//  let contador = 0;
+
+//  for (let i = 0; i < texto.length; i++) {
+//     if (texto.charAt(i) == "a") {
+//         contador++;
+//     }
+//  }
+
+//  console.log(contador);
+
+// 24
+
+// let cores = ["Vermelho", "Verde", "Azul"];
+// cores.push("Amarelo");
+// console.log(cores);
+// cores.splice(1,1);
+// console.log(cores);
+// cores.unshift("Roxo");
+// console.log(cores);
+
+// 25
+
+// let str1 = "casa";
+// let str2 = "CASA";
+
+// if (str1.toLowerCase() === str2.toLowerCase()) {
+//     console.log("iguais");
+// }
+
+// if (str1.toUpperCase() === str2.toUpperCase()) {
+//     console.log("iguais");
+// }
+
+// 26
+
+// 27
+
+// const carros = [
+//     {
+//         marca: "Toyota", 
+//         modelo: "Corolla", 
+//         ano: 2020
+//     }, 
+//     {
+//         marca: "Honda",
+//         modelo: "Civic", 
+//         ano: 2018
+//     },
+//     {
+//         marca: "Ford",
+//         modelo: "Mustang",
+//         ano: 2021 
+//     },
+//     {
+//         marca: "Chevrolet",
+//         modelo: "Camaro", 
+//         ano: 2019
+//     },
+//     {
+//         marca: "BMW", 
+//         modelo: "X5",
+//         ano: 2022
+//     }
+// ]
+
+// let marcaCarro = "Ford";
+
+// let filtro = carros.filter(function(carro){
+//     return carro.marca == marcaCarro;
+// });
+
+// console.log(marcaCarro);
+
+// 28
+
+// let animais = ["Cachorro", "Gato", "Leão", "Tigre"];
+
+// animais.splice(2, 1, "Panda");
+// console.log(animais);
+// animais.splice(2, 0, "Coelho");
+// console.log(animais);
+
+// 29
+
+// let numeros = [10, 5, 15, 7, 20];
+
+// let ordenados = numeros.sort(function(a,b){
+//     return a - b;
+// });
+// console.log(ordenados);
+// ordenados.unshift(1);
+// console.log(ordenados);
+
+// let comparacao = ordenados.length == 6 ? "true" : "false";
+// console.log(comparacao)
+
+// 30
+
+let part1 = "Aprender ";
+let part2 = "Programação";
+
+let concatenar = part1.concat(part2);
+console.log(concatenar);
+let letrasInvertidas = concatenar.split('').reverse().join('.');
+console.log(letrasInvertidas);
