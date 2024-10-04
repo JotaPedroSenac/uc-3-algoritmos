@@ -35,3 +35,51 @@
 // });
 
 // console.log(maiorQueOito);
+
+// 3
+
+// let precos = [50, 100,150];
+
+// let precosDesconto = precos.map((preco)=>{
+//     return preco - (preco * 0.2);
+// });
+
+// console.log(precosDesconto);
+
+// let precoFiltrado = precosDesconto.filter((precoDesconto) => {
+//     return precoDesconto < 80;
+// });
+
+// console.log(precoFiltrado);
+
+// 4
+
+// let quantidades = [30,10, 0, 20];
+
+// let somaCinco = quantidades.map((quantidade) => {
+//     return quantidade + 5;
+// });
+
+// console.log(somaCinco);
+
+// let numeroFiltrado = somaCinco.filter((soma) => {
+//     return soma > 25;
+// })
+
+// console.log(numeroFiltrado);
+
+// 5
+
+// let anos = [1990, 1985,2000];
+
+// let idades = anos.map((ano) => {
+//     return 2024 - ano;
+// });
+
+// console.log(idades);
+
+// let maiorTrinta = idades.filter((idade) => {
+//     return idade > 30;
+// });
+
+// console.log(maiorTrinta);
