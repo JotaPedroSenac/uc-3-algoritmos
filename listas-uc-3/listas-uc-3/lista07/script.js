@@ -307,12 +307,12 @@
 
 // 20
 
-let numeros = [];
-for (let i = 0; i < 5; i++) {
-    numeros.push(Math.floor(Math.random() * 21));
-}
+// let numeros = [];
+// for (let i = 0; i < 5; i++) {
+//     numeros.push(Math.floor(Math.random() * 21));
+// }
 
-console.log(numeros);
+// console.log(numeros);
 
 
 // 21
