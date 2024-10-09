@@ -179,3 +179,38 @@
     // let num = parseFloat(numeroStr);
     // console.log(Math.floor(num));
     // console.log(Math.ceil(num));
+
+    // 20
+
+    // let palavra = "programador";
+
+    // let contador = 0;
+
+    // for (let i = 0; i < palavra.length; i++) {
+    //     if (palavra.charAt(i) === "a") {
+    //         contador++;
+    //     }
+    // }
+
+    // console.log(contador);
+
+    // 21
+    // let str1 = "casa";
+    // let str2 = "CASA";
+
+    // let igualdade = str1 === str2 ? "true" : "False";
+    // console.log(igualdade);
+
+    // 22
+
+    // let numeros = [15, 20, 25, 30];
+    // every?
+
+    // 23
+
+    // let numeros = [5, 8, 12, 3];
+    // some?
+
+    // 24
+
+    
