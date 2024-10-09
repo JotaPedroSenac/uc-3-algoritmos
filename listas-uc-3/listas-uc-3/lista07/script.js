@@ -150,7 +150,7 @@
 
 // console.log(result);
 
-// 11
+// 11 
 
 // let cidade = "São Paulo";
 // let clima = "ensolarado";
