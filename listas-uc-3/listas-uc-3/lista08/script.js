@@ -204,12 +204,38 @@
     // 22
 
     // let numeros = [15, 20, 25, 30];
-    // every?
 
+    // let maiorDez = true;
+
+    // for (let i = 0; i < numeros.length; i++) {
+    //     if (numeros[i] <= 10) {
+    //         maiorDez = false;
+    //         break;
+    //     }
+        
+    // }
+
+    // console.log(maiorDez);
+
+    
     // 23
 
     // let numeros = [5, 8, 12, 3];
     // some?
+
+    let numeros = [5, 8, 12, 3];
+
+    let menorCinco = true;
+
+    for (let i = 0; i < numeros.length; i++) {
+            if (numeros[i] < 5) {
+                menorCinco = false;
+                break;
+            }
+            
+        }
+
+        console.log(menorCinco);
 
     // 24
 
