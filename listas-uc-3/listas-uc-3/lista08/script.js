@@ -213,4 +213,225 @@
 
     // 24
 
-    
+    // Não passou esse comando
+    //  let frase = " JavaScript é divertido! ";
+
+    //  let result = frase.trim();
+    //  console.log(result);
+
+    // 25
+
+    // let numero = 7;
+    // if (numero > 10) {
+    //     console.log("Maior que 10");
+    // }else{
+    //     console.log("Menor ou igual a 10");
+    // }
+
+    // 26
+
+    // let palavras = ["Eu", "amo", "JavaScript"];
+
+    // let resultado = palavras.join(" ");
+    // console.log(resultado);
+
+    // 27
+
+    // let palavra = "JavaScript";
+
+    // let resultado = palavra.split('');
+    // console.log(resultado);
+
+    // 28
+
+    // let numero = 25;
+    // let resultado = numero > 10 && numero < 50 ? "Dentro do intervalo" : "Fora do Intervalo";
+
+    // console.log(resultado);
+
+    // 29
+
+    // let numeros = [2, 4, 6];
+
+    // let resultado = numeros.map((num) => {
+    //     return num * 3;
+    // });
+
+    // console.log(resultado);
+
+    // 30
+
+    //  let str1 = "João";
+    //  let str2 = "joão"
+
+    //  let iguais = str1.toLowerCase === str2.toLowerCase;
+    //  console.log(iguais);
+
+    // 31
+
+    // let nomes = ["Pedro", "Maria", "José"];
+
+    // nomes.unshift("Ana");
+    // console.log(nomes);
+
+    // 32
+
+    // let cidades = ["Natal", "Recife", "Fortaleza"];
+
+    // cidades.pop();
+    // console.log(cidades);
+
+    // 33
+
+    // let numero =-8;
+
+    // let resultado = numero > 0 ? "Positivo" : "Negativo";
+
+    // console.log(resultado);
+
+    // 34
+
+    // let nome = "JavaScript";
+
+    // let minuscula = nome.toLowerCase();
+    // let maiuscula = nome.toUpperCase();
+
+    // console.log(`Minuscula: ${minuscula}, Maiuscula: ${maiuscula}`);
+
+    // 35
+
+    // let numeros = [2, 4, 6, 8];
+
+    // let resultado = numeros.map((num) => {
+    //     return num * 2;
+    // });
+
+    // console.log(resultado);
+
+    // 36
+
+    // let texto = "JavaScript é divertido";
+
+    // let resultado = texto.split(' ');
+    // console.log(resultado);
+    // let result = resultado.join('');
+    // console.log(result);
+
+    // 37
+
+    // let numero = 16;
+    // let quadrado = Math.sqrt(numero);
+    // console.log(quadrado);
+
+    // 38
+
+    // let itens = [];
+
+    // if (itens.length == 0) {
+    //     console.log("true")
+    // }else{
+    //     console.log("false")
+    // }
+
+    // 39
+
+    // let numero = 5;
+    // let fatorial = 1;
+
+    // for (let i = 1; i <=  numero; i++) {
+    //     fatorial = i * fatorial;
+    // }
+
+    // console.log(fatorial);
+
+    // 40
+
+    // let valores = [1, 2, 3, 4, 5];
+
+    // let mult = valores.map((valor) => {
+    //     return valor * 2;
+    // });
+
+    // // console.log(mult);
+
+    // let resultado = mult.reduce((acumulador, numero) => {
+    //     return acumulador + numero;
+    // });
+
+    // console.log(resultado);
+
+    // 41
+
+    // let texto = "JavaScript";
+
+    // let resultado = texto.split('');
+    // console.log(resultado);
+
+    // 42
+
+    //  let parte1 = "Olá ";
+    //  let parte2 = "mundo!"
+
+    //  let resultado = parte1.concat(parte2);
+    //  console.log(resultado);
+
+    // 43
+
+    //  let numeroStr = "25";
+    //  let resultado = parseInt(numeroStr);
+    //  console.log(resultado);
+
+    // 44
+
+    // let cores = ["Vermelho", "Verde", "Azul"];
+    // cores.splice(1,1);
+    // console.log(cores);
+
+    // 45
+
+    // let palavra = "JavaScript";
+
+    // let tamanho = palavra.length;
+    // console.log(tamanho);
+
+    // 46
+
+    // let a = 5;
+    // let b = 7;
+
+    // let multiplicar = a*b;
+
+    // let resultado = multiplicar > 30 ? "Maior que 30" : "Menor ou igual a 30";
+
+    // console.log(resultado);
+
+    // 47
+
+    // let palavra = "JavaScript";
+
+    // let dividir = palavra.split('');
+    // let inverter = dividir.reverse().join('');
+    // console.log(inverter);
+
+    // 48
+
+    // let cidades = ["Natal", "Recife", "Fortaleza"];
+    // cidades.shift();
+    // console.log(cidades);
+
+    // 49
+
+    // let numero = 9;
+
+    // let resultado = numero % 2 == 0 ? "Par" : "Impar";
+    // console.log(resultado);
+
+    // 50
+
+    // let numeros = [1, 2, 3, 4, 5];
+
+    // let mult = numeros.map((numero) => {
+    //     return numero * 10;
+    // });
+
+    // console.log(mult);
